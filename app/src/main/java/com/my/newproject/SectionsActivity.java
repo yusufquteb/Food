@@ -66,7 +66,7 @@ public class SectionsActivity extends AppCompatActivity {
 		textview1 = SectionsActivity.this.findViewById(R.id.textview1);
 		imageview2 = SectionsActivity.this.findViewById(R.id.imageview2);
 		
-		imageview1.setOnClickListener(View _view -> {
+		imageview1.setOnClickListener((View _view) -> {
 			SectionsActivity.this.finish();
 		});
 	}
@@ -130,7 +130,7 @@ public class SectionsActivity extends AppCompatActivity {
 			
 			textview4.setText(_data.get((int)_position).get("department").toString());
 			textview4.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/robotobold.ttf"), 0);
-			cardview1.setOnClickListener(View _view -> {
+			cardview1.setOnClickListener((View v) -> {
 				i.setClass(SectionsActivity.this.getApplicationContext(), FoodListActivity.class);
 				i.putExtra("section", _data.get((int)_position).get("department-E ").toString());
 				SectionsActivity.this.startActivity(i);

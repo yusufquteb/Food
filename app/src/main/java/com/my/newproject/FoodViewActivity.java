@@ -136,7 +136,7 @@ public class FoodViewActivity extends AppCompatActivity {
 		textview16 = FoodViewActivity.this.findViewById(R.id.textview16);
 		textview17 = FoodViewActivity.this.findViewById(R.id.textview17);
 		
-		logoImageView.setOnClickListener(View _view -> {
+		logoImageView.setOnClickListener((View _view) -> {
 			FoodViewActivity.this.finish();
 		});
 	}

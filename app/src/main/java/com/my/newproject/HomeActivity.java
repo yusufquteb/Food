@@ -174,18 +174,18 @@ public class HomeActivity extends AppCompatActivity {
 		textview15 = HomeActivity.this.findViewById(R.id.textview15);
 		textview16 = HomeActivity.this.findViewById(R.id.textview16);
 		
-		categoriesSectionHeader.setOnClickListener(View _view -> {
+		categoriesSectionHeader.setOnClickListener((View _view) -> {
 			intent.setClass(HomeActivity.this.getApplicationContext(), SectionsActivity.class);
 			HomeActivity.this.startActivity(intent);
 		});
 		
-		imageview9.setOnClickListener(View _view -> {
+		imageview9.setOnClickListener((View _view) -> {
 			intent.setClass(HomeActivity.this.getApplicationContext(), FoodListActivity.class);
 			intent.putExtra("section", "02_rice");
 			HomeActivity.this.startActivity(intent);
 		});
 		
-		imageview11.setOnClickListener(View _view -> {
+		imageview11.setOnClickListener((View _view) -> {
 			intent.setClass(HomeActivity.this.getApplicationContext(), FoodListActivity.class);
 			intent.putExtra("section", "10_foreign_sweets");
 			HomeActivity.this.startActivity(intent);
