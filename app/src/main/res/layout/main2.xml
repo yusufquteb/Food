@@ -9,7 +9,7 @@
 		android:id="@+id/bg"
 		android:layout_width="match_parent"
 		android:layout_height="match_parent"
-		android:background="#FFFFFF"
+		android:background="@color/md_theme_light_background"
 		android:orientation="vertical">
 		<LinearLayout
 			android:id="@+id/bottom"
@@ -43,20 +43,20 @@
 					android:id="@+id/textview1"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
-					android:layout_marginLeft="25dp"
+					android:layout_marginStart="25dp"
 					android:text="Cook Like"
-					android:textSize="32sp"
-					android:textColor="#000000"
-					android:layout_marginStart="25dp" />
+					android:textSize="36sp"
+					android:letterSpacing="0.02"
+					android:textColor="@color/md_theme_light_onBackground" />
 				<TextView
 					android:id="@+id/textview3"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
-					android:layout_marginLeft="25dp"
+					android:layout_marginStart="25dp"
 					android:text="A Chef"
-					android:textSize="32sp"
-					android:textColor="#000000"
-					android:layout_marginStart="25dp" />
+					android:textSize="36sp"
+					android:letterSpacing="0.02"
+					android:textColor="@color/md_theme_light_primary" />
 			</LinearLayout>
 			<LinearLayout
 				android:id="@+id/linear3"
@@ -66,22 +66,21 @@
 				android:orientation="horizontal" />
 			<LinearLayout
 				android:id="@+id/linear4"
-				android:layout_width="180dp"
+				android:layout_width="200dp"
 				android:layout_height="56dp"
-				android:layout_marginLeft="25dp"
-				android:background="#5B65F5"
+				android:layout_marginStart="25dp"
+				android:background="@color/md_theme_light_primary"
 				android:gravity="center_horizontal|center_vertical"
 				android:orientation="horizontal"
-				android:layout_marginStart="25dp"
-				android:elevation="4dp">
+				android:elevation="2dp">
 				<TextView
 					android:id="@+id/textview2"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
-					android:text="Get Started  》"
-					android:textSize="18sp"
-					android:textStyle="bold"
-					android:textColor="#FFFFFF" />
+					android:text="Get Started  ›"
+					android:textSize="16sp"
+					android:letterSpacing="0.05"
+					android:textColor="@color/md_theme_light_onPrimary" />
 			</LinearLayout>
 			<LinearLayout
 				android:id="@+id/linear5"

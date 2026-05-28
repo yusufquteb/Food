@@ -9,9 +9,10 @@
 		android:id="@+id/cardview1"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
-		android:layout_margin="15dp"
-		app:cardElevation="10dp"
-		app:cardCornerRadius="20dp">
+		android:layout_margin="8dp"
+		app:cardElevation="2dp"
+		app:cardCornerRadius="20dp"
+		app:cardBackgroundColor="@color/md_theme_light_surfaceContainerLow">
 		<LinearLayout
 			android:id="@+id/linear13"
 			android:layout_width="115dp"
@@ -29,7 +30,7 @@
 				android:padding="8dp"
 				android:gravity="center_horizontal|center_vertical"
 				android:text="قسم الأرز"
-				android:textSize="16sp"
+				android:textSize="15sp"
 				android:textStyle="bold"
 				android:textColor="#FFFFFF" />
 		</LinearLayout>
