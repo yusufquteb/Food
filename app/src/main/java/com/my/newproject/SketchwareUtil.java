@@ -5,6 +5,7 @@ import android.graphics.drawable.*;
 import android.net.ConnectivityManager;
 import android.net.Network;
 import android.net.NetworkCapabilities;
+import android.net.Uri;
 import android.os.Build;
 import android.util.*;
 import android.view.*;
