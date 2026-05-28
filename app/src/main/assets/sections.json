@@ -1,0 +1,62 @@
+[{
+        "department": "الخضار والطبيخ",
+        "department-E ": "01_altabikh"
+    },
+    {
+        "department": " الأرز ولسان العصفور بأنواعهم",
+        "department-E ": "02_rice"
+    },
+    {
+        "department": "المكرونات بأنواعها",
+        "department-E ": "03_pasta"
+    },
+    {
+        "department": "الطيور بأنواعها",
+        "department-E ": "04_chicken"
+    },
+    {
+        "department": "اللحوم بأنواعها",
+        "department-E ": "05_meat"
+    },
+    {
+        "department": "المأكولات البحرية",
+        "department-E ": "06_seafood"
+    },
+    {
+        "department": "السلطات",
+        "department-E ": "07_salad "
+    },
+    {
+        "department": "الصوصات والسلطات السائلة",
+        "department-E ": "08_sauce"
+    },
+    {
+        "department": "الحلويات الشرقية",
+        "department-E ": "09_oriantal_sweets"
+    },
+    {
+        "department": "الحلويات الغربية",
+        "department-E ": "10_foreign_sweets"
+    },
+    {
+        "department": "حلويات من منتجات الألبان",
+        "department-E ": "11_milk_sweets"
+    },
+    {
+        "department": "المخبوزات",
+        "department-E ": "12_almakhbuzat"
+    },
+    {
+        "department": "الفطائر",
+        "department-E ": "13_alfatayir"
+    },
+    {
+        "department": "البيتزا",
+        "department-E ": "14_Pizza"
+    },
+    {
+        "department": "الكبدة",
+        "department-E ": "15_liver"
+    }
+    
+]

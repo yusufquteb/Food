@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Food Review</string>
+    <string name="app_logo">App Logo</string>
+    <string name="search">Search</string>
+    <string name="food_image">Food Image</string>
+    <string name="like_button">Like Button</string>
+    <string name="save_recipe">Save Recipe</string>
+    <string name="share_recipe">Share Recipe</string>
+</resources>
