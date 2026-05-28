@@ -78,7 +78,7 @@ public class FoodListActivity extends AppCompatActivity {
 		textview1 = FoodListActivity.this.findViewById(R.id.textview1);
 		imageview2 = FoodListActivity.this.findViewById(R.id.imageview2);
 		
-		imageview1.setOnClickListener(View _view -> {
+		imageview1.setOnClickListener((View _view) -> {
 			FoodListActivity.this.finish();
 		});
 	}
@@ -146,7 +146,7 @@ public class FoodListActivity extends AppCompatActivity {
 			final ImageView imageview18 = _view.findViewById(R.id.imageview18);
 			final TextView rating = _view.findViewById(R.id.rating);
 			
-			cardview1.setOnClickListener(View _view -> {
+			cardview1.setOnClickListener((View v) -> {
 				i.setClass(FoodListActivity.this.getApplicationContext(), FoodViewActivity.class);
 				i.putExtra("name", _data.get((int)_position).get("food name").toString());
 				i.putExtra("quantities", _data.get((int)_position).get("quantities").toString());

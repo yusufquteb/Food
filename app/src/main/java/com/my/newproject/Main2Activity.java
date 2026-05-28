@@ -74,7 +74,7 @@ public class Main2Activity extends AppCompatActivity {
 		textview3 = Main2Activity.this.findViewById(R.id.textview3);
 		textview2 = Main2Activity.this.findViewById(R.id.textview2);
 		
-		linear4.setOnClickListener(View _view -> {
+		linear4.setOnClickListener((View _view) -> {
 			intent.setClass(Main2Activity.this.getApplicationContext(), HomeActivity.class);
 			Main2Activity.this.startActivity(intent);
 			Main2Activity.this.finish();
